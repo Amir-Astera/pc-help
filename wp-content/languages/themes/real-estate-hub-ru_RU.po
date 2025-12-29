@@ -1,0 +1,783 @@
+# Translation of Themes - Real Estate Hub in Russian
+# This file is distributed under the same license as the Themes - Real Estate Hub package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-28 08:28:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Real Estate Hub\n"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Real Estate Hub"
+msgstr "Real Estate Hub"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Real Estate Hub is a versatile and feature-rich website template designed to cater to the specific needs of real estate professionals, agencies, and property-related businesses. This theme serves as an all-inclusive platform for creating dynamic and visually appealing real estate websites. The theme offers a clean and modern aesthetic, combined with a highly responsive design. Its layout adapts seamlessly to various screen sizes, ensuring a consistent and user-friendly experience on desktops, tablets, and mobile devices. This theme serves multiple purposes within the real estate industry. Real estate agents, agencies, and property management companies can effectively showcase their listings, present detailed property information, and engage with potential buyers or renters. The Real Estate Hub theme facilitates property search and comparison, making it easier for visitors to find their ideal properties. Features of the Real Estate Hub theme include customizable property listing templates, allowing users to add comprehensive property descriptions, high- resolution images, pricing details, and location information. Integrated search and filtering options enable visitors to refine their property search based on criteria like location, property type, price range, and more. Moreover, the theme also includes advanced search functionalities, interactive maps, and interactive property tours, enhancing the overall user experience and helping potential buyers or renters find the properties that best suit their needs."
+msgstr "Real Estate Hub — это универсальный и многофункциональный шаблон веб-сайта, разработанный для удовлетворения конкретных потребностей профессионалов в сфере недвижимости, агентств и предприятий, связанных с недвижимостью. Эта тема служит комплексной платформой для создания динамичных и визуально привлекательных веб-сайтов по недвижимости. Тема предлагает чистую и современную эстетику в сочетании с очень отзывчивым дизайном. Его макет легко адаптируется к экранам различных размеров, обеспечивая единообразную и удобную работу на настольных компьютерах, планшетах и мобильных устройствах. Эта тема служит нескольким целям в сфере недвижимости. Агенты по недвижимости, агентства и компании по управлению недвижимостью могут эффективно демонстрировать свои объявления, предоставлять подробную информацию о недвижимости и взаимодействовать с потенциальными покупателями или арендаторами. Тема Real Estate Hub облегчает поиск и сравнение объектов недвижимости, что облегчает посетителям поиск идеальной недвижимости. Возможности темы Real Estate Hub включают настраиваемые шаблоны списков недвижимости, позволяющие пользователям добавлять подробные описания недвижимости, изображения с высоким разрешением, сведения о ценах и информацию о местоположении. Интегрированные параметры поиска и фильтрации позволяют посетителям уточнить поиск недвижимости по таким критериям, как местоположение, тип недвижимости, диапазон цен и многое другое. Кроме того, тема также включает в себя расширенные функции поиска, интерактивные карты и интерактивные туры по объектам недвижимости, что улучшает общий пользовательский опыт и помогает потенциальным покупателям или арендаторам найти объекты недвижимости, которые лучше всего соответствуют их потребностям."
+
+#: inc/customizer.php:45
+msgid "Body Layout Setting"
+msgstr "Настройка макета основной части"
+
+#: inc/customizer.php:46
+msgid "This option work for complete body, if you want to set the complete website in container."
+msgstr "Эта опция работает для всей основной части, если вы хотите установить весь сайт в контейнер."
+
+#: inc/customizer.php:50
+msgid "Container"
+msgstr "Контейнер"
+
+#: inc/customizer.php:51
+msgid "Container Fluid"
+msgstr "Растягивающийся контейнер"
+
+#: inc/customizer.php:112
+msgid "Show / Hide Sticky Header"
+msgstr "Прикрепленный заголовок: показать/скрыть"
+
+#: inc/about-theme.php:84
+msgid "About"
+msgstr "О нас"
+
+#: inc/about-theme.php:39
+msgid "About Theme"
+msgstr "О теме"
+
+#: inc/customizer.php:278
+msgid "Capitalize"
+msgstr "Заглавные буквы"
+
+#: inc/customizer.php:578
+msgid "Center"
+msgstr "По центру"
+
+#: inc/about-theme.php:88
+msgid "Changelog"
+msgstr "Журнал изменений"
+
+#: inc/customizer.php:882
+msgid "Click Here"
+msgstr "Нажмите здесь"
+
+#: inc/about-theme.php:121
+msgid "Customize"
+msgstr "Настроить"
+
+#: inc/customizer.php:287
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: inc/customizer.php:540
+msgid "Footer Widget Background Color"
+msgstr "Цвет фона виджетов в подвале"
+
+#: functions.php:340
+msgid "Get started"
+msgstr "Начать"
+
+#: inc/about-theme.php:105
+msgid "Go to Dashboard"
+msgstr "Перейти на Консоль"
+
+#: inc/about-theme.php:283
+msgid "Live Customizer"
+msgstr "Визуальная настройка темы"
+
+#: inc/customizer.php:277
+msgid "Lowercase"
+msgstr "Нижний регистр"
+
+#: inc/customizer.php:263
+msgid "Menu Typography"
+msgstr "Типография меню"
+
+#: inc/about-theme.php:65
+msgid "Theme Info"
+msgstr "Информация о теме"
+
+#: inc/about-theme.php:69
+msgid "Theme Instructions"
+msgstr "Инструкции для темы"
+
+#: inc/about-theme.php:71
+msgid "Rate this theme"
+msgstr "Оцените эту тему"
+
+#: inc/about-theme.php:86
+msgid "Compare free Vs Pro"
+msgstr "Сравнить бесплатную версию с Pro"
+
+#: inc/about-theme.php:102
+msgid "Return to Updates"
+msgstr "Вернуться к обновлениям"
+
+#: inc/about-theme.php:102
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Вернуться в Консоль и Обновления"
+
+#: inc/about-theme.php:105
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Перейти в Консоль и Главная"
+
+#: inc/about-theme.php:278
+msgid "Responsive Design"
+msgstr "Адаптивный дизайн"
+
+#: inc/about-theme.php:83
+msgid "Secondary menu"
+msgstr "Дополнительное меню"
+
+#: inc/about-theme.php:127
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#: inc/about-theme.php:119
+msgid "Theme Customizer"
+msgstr "Настройщик темы"
+
+#: inc/customizer.php:881
+msgid "Theme Documentation"
+msgstr "Документация к теме"
+
+#: inc/about-theme.php:73
+msgid "Upgrade to pro"
+msgstr "Обновить до Pro"
+
+#: inc/customizer.php:276
+msgid "Uppercase"
+msgstr "Верхний регистр"
+
+#: inc/about-theme.php:67
+msgid "View Demo"
+msgstr "Смотреть демонстрацию"
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link
+#. ending html tag.
+#: functions.php:334
+msgid "Welcome! Thank you for choosing %1$s!"
+msgstr "Добро пожаловать! Спасибо за выбор %1$s!"
+
+#: functions.php:338
+msgid "Click here to get started with the theme set-up."
+msgstr "Нажмите здесь, чтобы начать настройку темы."
+
+#: inc/about-theme.php:133
+msgid "GETPro20"
+msgstr "GETPro20"
+
+#: inc/about-theme.php:222
+msgid "Free Theme"
+msgstr "Бесплатная тема"
+
+#: inc/about-theme.php:223
+msgid "Pro Theme"
+msgstr "Платная тема"
+
+#: inc/about-theme.php:228
+msgid "Theme Demo Set Up"
+msgstr "Настройка демонстрационной темы"
+
+#: inc/about-theme.php:233
+msgid "Additional Templates, Color options and Fonts"
+msgstr "Дополнительные шаблоны, параметры цвета и шрифты"
+
+#: inc/about-theme.php:238
+msgid "Included Demo Content"
+msgstr "Включенный демонстрационный контент"
+
+#: inc/about-theme.php:243
+msgid "Section Ordering"
+msgstr "Порядок разделов"
+
+#: inc/about-theme.php:248
+msgid "Multiple Sections"
+msgstr "Несколько разделов"
+
+#: inc/about-theme.php:253
+msgid "Additional Plugins"
+msgstr "Дополнительные плагины"
+
+#: inc/about-theme.php:258
+msgid "Premium Technical Support"
+msgstr "Премиальная техническая поддержка"
+
+#: inc/about-theme.php:263
+msgid "Access to Support Forums"
+msgstr "Доступ к форумам поддержки"
+
+#: inc/about-theme.php:268
+msgid "Free updates"
+msgstr "Бесплатные обновления"
+
+#: inc/about-theme.php:273
+msgid "Unlimited Domains"
+msgstr "Неограниченное кол-во доменов"
+
+#: inc/about-theme.php:290
+msgid "Go for Premium"
+msgstr "Перейти на Премиум"
+
+#: inc/customizer.php:29
+msgid " Custom Home Page "
+msgstr " Пользовательская главная страница "
+
+#: inc/customizer.php:584
+msgid "Mobile Responsive media"
+msgstr "Адаптированные на мобильные устройства"
+
+#: inc/customizer.php:559 inc/customizer.php:594
+msgid "Show / Hide Return to header"
+msgstr "Вернуться к заголовку: показать/скрыть"
+
+#: inc/customizer.php:411 inc/customizer.php:605
+msgid "Show / Hide Slider Serach Option"
+msgstr "Наложение изображения слайдера: показать/скрыть"
+
+#: inc/customizer.php:422 inc/customizer.php:616
+msgid "Show / Hide Slider post"
+msgstr "Запись слайдера: показать/скрыть"
+
+#: inc/customizer.php:168
+msgid "TP Color Option"
+msgstr "TP Опция цвета"
+
+#: inc/customizer.php:177
+msgid "It will change the complete theme color in one click."
+msgstr "Изменит цвет темы полностью, за один клик."
+
+#: inc/customizer.php:186
+msgid "It will change the complete theme hover link color in one click."
+msgstr "Он изменит цвет ссылки при наведении на всю тему одним щелчком мыши."
+
+#: inc/customizer.php:120
+msgid "TP Preloader Option"
+msgstr "TP Параметр анимации загрузки"
+
+#: inc/customizer.php:140
+msgid "Preloader First Ring Color"
+msgstr "Цвет первого кольца анимации загрузки"
+
+#: inc/customizer.php:141
+msgid "It will change the complete theme preloader ring 1 color in one click."
+msgstr "Это изменит цвет всего кольца анимации загрузки темы на 1 цвет одним щелчком мыши."
+
+#: inc/customizer.php:150
+msgid "Preloader Second Ring Color"
+msgstr "Цвет второго кольца анимации загрузки"
+
+#: inc/customizer.php:151
+msgid "It will change the complete theme preloader ring 2 color in one click."
+msgstr "Это изменит цвет всего кольца анимации загрузки темы на 2 цвета одним щелчком мыши."
+
+#: inc/customizer.php:160
+msgid "Preloader Background Color"
+msgstr "Цвет фона анимации загрузки"
+
+#: inc/customizer.php:161
+msgid "It will change the complete theme preloader bg color in one click."
+msgstr "Он изменит весь цвет анимации загрузки темы одним щелчком мыши."
+
+#: inc/customizer.php:273
+msgid "Menu Text Transform"
+msgstr "Преобразование текста меню"
+
+#: inc/customizer.php:541
+msgid "It will change the complete footer widget backgorund color."
+msgstr "Это полностью изменит цвет фона виджета подвала."
+
+#: inc/customizer.php:550
+msgid "Footer Widget Background Image"
+msgstr "Фоновое изображение виджета подвала"
+
+#: inc/customizer.php:572
+msgid "Scroll to top Position"
+msgstr "Прокрутить до верхней позиции"
+
+#: inc/customizer.php:573
+msgid "This option work for scroll to top"
+msgstr "Эта опция работает для прокрутки вверх"
+
+#: functions.php:203
+msgid "Real Estate Hub WordPress Theme"
+msgstr "Тема WordPress для недвижимости Real Estate Hub"
+
+#: inc/about-theme.php:120
+msgid "All Theme Options are available via Customize screen."
+msgstr "Все параметры темы доступны на экране настройки."
+
+#: inc/about-theme.php:125
+msgid "Got theme support question?"
+msgstr "Есть вопросы по поддержке темы?"
+
+#: inc/about-theme.php:126
+msgid "Get genuine support from genuine people. Whether it's customization or compatibility, our seasoned developers deliver tailored solutions to your queries."
+msgstr "Получите настоящую поддержку от настоящих людей. Идет ли речь о настройке или совместимости, наши опытные разработчики предоставляют индивидуальные решения для ваших запросов."
+
+#: inc/about-theme.php:131
+msgid "Upgrade To Premium With Straight 20% OFF."
+msgstr "Обновите до премиум со скидкой 20%."
+
+#: inc/about-theme.php:132
+msgid "Get our amazing WordPress theme with exclusive 20% off use the coupon"
+msgstr "Получите нашу удивительную тему WordPress с эксклюзивной скидкой 20%, используя купон"
+
+#: inc/about-theme.php:149
+msgid "View changelog below:"
+msgstr "Посмотреть журнал изменений ниже:"
+
+#: inc/about-theme.php:217
+msgid "View Free vs Pro Table below:"
+msgstr "Просмотрите таблицу бесплатной и платной версии ниже:"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Похоже, что ничего не было найдено в этом месте. Может, попробовать поискать?"
+
+#: archive.php:54 archive.php:92 archive.php:129 archive.php:166
+#: archive.php:205 archive.php:244 archive.php:282 index.php:45 index.php:83
+#: index.php:120 index.php:157 index.php:196 index.php:235 index.php:273
+#: single.php:45 single.php:70 single.php:94 single.php:117
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: archive.php:55 archive.php:93 archive.php:130 archive.php:167
+#: archive.php:206 archive.php:245 archive.php:283 index.php:46 index.php:84
+#: index.php:121 index.php:158 index.php:197 index.php:236 index.php:274
+#: single.php:46 single.php:71 single.php:95 single.php:118
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: archive.php:56 archive.php:94 archive.php:131 archive.php:168
+#: archive.php:207 archive.php:246 archive.php:284 index.php:47 index.php:85
+#: index.php:122 index.php:159 index.php:198 index.php:237 index.php:275
+#: single.php:47 single.php:72 single.php:96 single.php:119
+msgid "Page"
+msgstr "Страница"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s ответ на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s ответа на &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s ответов на &ldquo;%2$s&rdquo;"
+
+#: comments.php:59
+msgid "Previous"
+msgstr "Назад"
+
+#: comments.php:60
+msgid "Next"
+msgstr "Далее"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: functions.php:26
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:82 sidebar.php:13
+msgid "Blog Sidebar"
+msgstr "Область виджетов блога"
+
+#: functions.php:84 functions.php:104
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr "Добавьте сюда виджеты для их помещения в область виджетов в записях блога и страницах архива."
+
+#: functions.php:92
+msgid "Page Sidebar"
+msgstr "Область виджетов страницы"
+
+#: functions.php:94
+msgid "Add widgets here to appear in your sidebar on pages."
+msgstr "Добавить здесь виджеты, которые будут появляться в области виджетов страниц."
+
+#: functions.php:102
+msgid "Sidebar 3"
+msgstr "Область виджетов 3"
+
+#: functions.php:112
+msgid "Footer 1"
+msgstr "Подвал 1"
+
+#: functions.php:114 functions.php:124 functions.php:134 functions.php:144
+msgid "Add widgets here to appear in your footer."
+msgstr "Добавьте сюда виджеты для отображения в подвале."
+
+#: functions.php:122
+msgid "Footer 2"
+msgstr "Подвал 2"
+
+#: functions.php:132
+msgid "Footer 3"
+msgstr "Подвал 3"
+
+#: functions.php:142
+msgid "Footer 4"
+msgstr "Подвал 4"
+
+#: header.php:40
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: inc/customizer.php:30
+msgid "Description of what this panel does."
+msgstr "Описание того, что делает эта панель."
+
+#: inc/customizer.php:35
+msgid "TP General Option"
+msgstr "Общие настройки: TP"
+
+#: inc/customizer.php:49 inc/customizer.php:66 inc/customizer.php:84
+#: inc/customizer.php:101
+msgid "Full"
+msgstr "По ширине"
+
+#: inc/customizer.php:63
+msgid "This option work for blog page, blog single page, archive page and search page."
+msgstr "Эта опция работает для страницы блога, отдельной страницы блога, страницы архива и страницы поиска."
+
+#: inc/customizer.php:67 inc/customizer.php:85 inc/customizer.php:102
+#: inc/customizer.php:577
+msgid "Left"
+msgstr "Слева"
+
+#: inc/customizer.php:68 inc/customizer.php:86 inc/customizer.php:103
+#: inc/customizer.php:576
+msgid "Right"
+msgstr "Справа"
+
+#: inc/customizer.php:69
+msgid "Three Columns"
+msgstr "Три столбца"
+
+#: inc/customizer.php:70
+msgid "Four Columns"
+msgstr "Четыре столбца"
+
+#: inc/customizer.php:71
+msgid "Grid Layout"
+msgstr "Макет сетки"
+
+#: inc/customizer.php:97
+msgid "Page Sidebar Position"
+msgstr "Позиция области виджетов страницы"
+
+#: inc/customizer.php:98
+msgid "This option work for pages."
+msgstr "Эта опция работает для страниц."
+
+#: inc/customizer.php:130
+msgid "Show / Hide Preloader Option"
+msgstr "Вариант анимации загрузки: показать/скрыть"
+
+#: inc/customizer.php:193
+msgid "TP Blog Option"
+msgstr "Вариант блога ТП"
+
+#: inc/customizer.php:255
+msgid "Show / Hide Tags Option"
+msgstr "Вариант меток: показать/скрыть"
+
+#: inc/customizer.php:244
+msgid "Show / Hide Read More Button"
+msgstr "Кнопка Читать далее: показать/скрыть"
+
+#: inc/customizer.php:230 template-parts/post/content-audio.php:55
+#: template-parts/post/content-audio.php:96
+#: template-parts/post/content-gallery.php:42
+#: template-parts/post/content-gallery.php:81
+#: template-parts/post/content-grid.php:35
+#: template-parts/post/content-image.php:50
+#: template-parts/post/content-image.php:96
+#: template-parts/post/content-video.php:53
+#: template-parts/post/content-video.php:93 template-parts/post/content.php:43
+#: template-parts/post/content.php:79
+msgid "Read More"
+msgstr "Читайте далее"
+
+#: inc/customizer.php:234
+msgid "Edit Button Text"
+msgstr "Изменить текст кнопки"
+
+#: inc/customizer.php:220
+msgid "Edit Excerpt Limit"
+msgstr "Изменить размер отрывка"
+
+#: inc/customizer.php:377
+msgid "Show / Hide slider"
+msgstr "Слайдер: показать/скрыть"
+
+#: inc/customizer.php:387
+msgid "Add short Heading"
+msgstr "Добавить короткий заголовок"
+
+#: inc/customizer.php:400
+msgid "Select Slide Image Page"
+msgstr "Выбрать страницу с изображением слайда"
+
+#: inc/customizer.php:503
+msgid "Footer Text"
+msgstr "Текст в подвале"
+
+#: inc/customizer.php:504
+msgid "Add copyright text."
+msgstr "Добавить текст авторского права."
+
+#: inc/customizer.php:514
+msgid "Copyright Text"
+msgstr "Текст авторского права"
+
+#: inc/customizer.php:629
+msgid "Show / Hide Site Title"
+msgstr "Название сайта: показать/скрыть"
+
+#: inc/customizer.php:684
+msgid "Here You Can Customize Your Logo Size"
+msgstr "Здесь вы можете настроить размер логотипа"
+
+#: inc/customizer.php:694
+msgid "Logo Layout Settings"
+msgstr "Настройки макета логотипа"
+
+#: inc/customizer.php:695
+msgid "Here you have two options 1. Logo and Site tite in differnt line. 2. Logo and Site title in same line."
+msgstr "Здесь у вас есть два варианта: 1. Логотип и название сайта в разных строках. 2. Логотип и название сайта в одной строке."
+
+#: inc/customizer.php:698
+msgid "Different Line"
+msgstr "Другая строка"
+
+#: inc/customizer.php:699
+msgid "Same Line"
+msgstr "Та же строка"
+
+#: inc/customizer.php:739
+msgid "Show / Hide Product page sidebar"
+msgstr "Область виджетов страницы товара: показать/скрыть"
+
+#: inc/customizer.php:869
+msgid "Upgrade Pro"
+msgstr "Обновиться до Pro"
+
+#: template-parts/post/content-none.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Поиск&hellip;"
+
+#: template-parts/footer/footer-widgets.php:23
+msgid "Footer"
+msgstr "Подвал"
+
+#: template-parts/navigation/site-nav.php:14
+msgid "Open Button"
+msgstr "Кнопка Открыть"
+
+#: template-parts/navigation/site-nav.php:17
+msgid "Top Menu"
+msgstr "Верхнее меню"
+
+#: template-parts/navigation/site-nav.php:27
+msgid "Close Button"
+msgstr "Кнопка Закрыть"
+
+#: page.php:38 page.php:60 page.php:81
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/post/content-audio.php:48
+#: template-parts/post/content-audio.php:89
+#: template-parts/post/content-gallery.php:35
+#: template-parts/post/content-gallery.php:74
+#: template-parts/post/content-grid.php:28
+#: template-parts/post/content-image.php:41
+#: template-parts/post/content-image.php:89
+#: template-parts/post/content-video.php:47
+#: template-parts/post/content-video.php:87 template-parts/post/content.php:34
+#: template-parts/post/content.php:72 template-parts/post/single-post.php:19
+msgid "0 Comments"
+msgstr "Нет комментариев"
+
+#: template-parts/post/content-audio.php:48
+#: template-parts/post/content-audio.php:89
+#: template-parts/post/content-gallery.php:35
+#: template-parts/post/content-gallery.php:74
+#: template-parts/post/content-grid.php:28
+#: template-parts/post/content-image.php:41
+#: template-parts/post/content-image.php:89
+#: template-parts/post/content-video.php:47
+#: template-parts/post/content-video.php:87 template-parts/post/content.php:34
+#: template-parts/post/content.php:72 template-parts/post/single-post.php:19
+msgid "% Comments"
+msgstr "Комментарии %"
+
+#. translators: %s: Post editor URL.
+#: template-parts/post/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%s\">Начните здесь</a>."
+
+#: template-parts/post/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищите. Возможно, поможет поиск."
+
+#: template-parts/post/single-post.php:43
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Опубликовано в</span><span class=\"post-title\">%title</span>"
+
+#: template-parts/post/single-post.php:48
+msgid "Next:"
+msgstr "Далее:"
+
+#: template-parts/post/single-post.php:50
+msgid "Previous:"
+msgstr "Предыдущая:"
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Вы должный войти на сайт, чтобы совершить покупку."
+
+#: woocommerce/checkout/form-checkout.php:52
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: inc/customizer.php:351
+msgid "Add Button Text"
+msgstr "Добавьте текст кнопки"
+
+#: inc/customizer.php:306
+msgid "Add Topbar Text"
+msgstr "Добавить текст на верхней панели"
+
+#: inc/customizer.php:297
+msgid "Header Settings"
+msgstr "Настройки заголовка"
+
+#: inc/customizer.php:497
+msgid "Select Category"
+msgstr "Выберите рубрику"
+
+#: inc/customizer.php:440
+msgid "Select post"
+msgstr "Выбрать запись"
+
+#: inc/customizer.php:657
+msgid "Show / Hide Site Tagline"
+msgstr "Краткое описание сайта: показать/скрыть"
+
+#: inc/customizer.php:367
+msgid "Slider Settings"
+msgstr "Настройки слайдера"
+
+#: functions.php:435
+msgid "No of Bedroom"
+msgstr "Количество спален"
+
+#: functions.php:443
+msgid "No of Bathroom"
+msgstr "Количество ванных комнат"
+
+#: functions.php:451
+msgid "No of Square Feet"
+msgstr "Количество квадратных футов"
+
+#: functions.php:459
+msgid "Price of Flat"
+msgstr "Цена квартиры"
+
+#: header.php:14
+msgid "http://gmpg.org/xfn/11"
+msgstr "http://gmpg.org/xfn/11"
+
+#: inc/customizer.php:315
+msgid "Add Call Text"
+msgstr "Добавить текст вызова"
+
+#: inc/customizer.php:324
+msgid "Add Phone Number"
+msgstr "Добавить номер телефона"
+
+#: inc/customizer.php:333
+msgid "Add Email Text"
+msgstr "Добавьте текст email"
+
+#: inc/customizer.php:342
+msgid "Add Mail Address"
+msgstr "Добавьте email-адрес"
+
+#: inc/customizer.php:360
+msgid "Add Button URL"
+msgstr "Добавьте URL кнопки"
+
+#: inc/customizer.php:446
+msgid "Our Projects Section"
+msgstr "Раздел Наши проекта"
+
+#: inc/customizer.php:466
+msgid "Add Sub Heading"
+msgstr "Добавить подзаголовок"
+
+#: inc/customizer.php:475
+msgid "Add Heading"
+msgstr "Добавить заголовок"
+
+#: inc/customizer.php:707
+msgid "Product Per Row"
+msgstr "Товар на строку"
+
+#: inc/customizer.php:718
+msgid "Product Per Page"
+msgstr "Товар на страницу"
+
+#: inc/customizer.php:784
+msgid "Real Estate Hub Pro Theme"
+msgstr "Тема Real Estate Hub Pro"
+
+#: template-parts/home/project.php:46 template-parts/home/slider.php:79
+msgid "Starting From $"
+msgstr "Начиная с $"
+
+#: template-parts/home/project.php:49
+msgid "See Details"
+msgstr "Посмотреть подробности"
+
+#: template-parts/home/slider.php:52
+msgid "For Sales"
+msgstr "Для продаж"
+
+#: inc/customizer.php:728
+msgid "Show / Hide Shop page sidebar"
+msgstr "Область виджетов страницы магазина: показать/скрыть"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "ThemesPride"
+msgstr "ThemesPride"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://www.themespride.com/"
+msgstr "https://www.themespride.com/"
+
+#. Theme URI of the theme
+#: functions.php:200
+#, gp-priority: low
+msgid "https://www.themespride.com/themes/free-real-estate-wordpress-theme/"
+msgstr "https://www.themespride.com/themes/free-real-estate-wordpress-theme/"

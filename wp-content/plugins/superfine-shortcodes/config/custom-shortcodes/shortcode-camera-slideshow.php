@@ -1,0 +1,137 @@
+<?php
+return array(
+    "name" => esc_html__("Camera Slideshow", "js_composer"),
+    "base" => "it_camera_slideshow",
+    "as_parent" => array('only' => 'it_camera_slide'),
+    'icon' => 'no-bg fa fa-camera',
+    'save_always' => true,
+    'category' => esc_html__( 'Custom Shortcodes', 'js_composer' ),
+    "content_element" => true,
+    'description' => esc_html__( 'Add Camera Slideshow parent container', 'js_composer' ),
+    "params" => array(
+        array(
+            "type" => "textfield",
+            'heading' => esc_html__( 'Height', 'js_composer' ),
+            'param_name' => 'height',
+            'value' => '',
+            "description" => esc_html__("Set the height in pixels (Ex: '300px') or in percentage (Ex: '50%').",'superfine')
+        ),array(
+            "type" => "dropdown",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Animation",'superfine'),
+            "param_name" => "fx",
+            "value" => array(
+                'random' => 'random',
+                'simpleFade' => 'simpleFade', 
+                'curtainTopLeft' => 'curtainTopLeft', 
+                'curtainTopRight' => 'curtainTopRight', 
+                'curtainBottomLeft' => 'curtainBottomLeft', 
+                'curtainBottomRight' => 'curtainBottomRight', 
+                'curtainSliceLeft' => 'curtainSliceLeft', 
+                'curtainSliceRight' => 'curtainSliceRight', 
+                'blindCurtainTopLeft' => 'blindCurtainTopLeft', 
+                'blindCurtainTopRight' => 'blindCurtainTopRight', 
+                'blindCurtainBottomLeft' => 'blindCurtainBottomLeft', 
+                'blindCurtainBottomRight' => 'blindCurtainBottomRight', 
+                'blindCurtainSliceBottom' => 'blindCurtainSliceBottom', 
+                'blindCurtainSliceTop' => 'blindCurtainSliceTop', 
+                'stampede' => 'stampede', 
+                'mosaic' => 'mosaic', 
+                'mosaicReverse' => 'mosaicReverse', 
+                'mosaicRandom' => 'mosaicRandom', 
+                'mosaicSpiral' => 'mosaicSpiral', 
+                'mosaicSpiralReverse' => 'mosaicSpiralReverse', 
+                'topLeftBottomRight' => 'topLeftBottomRight', 
+                'bottomRightTopLeft' => 'bottomRightTopLeft', 
+                'bottomLeftTopRight' => 'bottomLeftTopRight', 
+                'bottomLeftTopRight' => 'bottomLeftTopRight', 
+                'scrollLeft' => 'scrollLeft', 
+                'scrollRight' => 'scrollRight', 
+                'scrollHorz' => 'scrollHorz', 
+                'scrollBottom' => 'scrollTop', 
+                'scrollTop' => 'scrollTop'
+            ),
+            'edit_field_class' => 'vc_col-xs-8 vc_column',
+            "description" => esc_html__("Select Animation.",'superfine')
+         ),array(
+            'type' => 'dropdown',
+            'heading' => esc_html__( 'Loader', 'js_composer' ),
+            'param_name' => 'loader',
+            'edit_field_class' => 'vc_col-xs-4 vc_column',
+            'value' => array(
+                'pie' => 'pie',
+                'bar' => 'bar',
+                'none' => 'none',
+            ),
+        ),array(
+            'type' => 'dropdown',
+            'heading' => esc_html__( 'Alignment', 'js_composer' ),
+            'param_name' => 'align',
+            'edit_field_class' => 'vc_col-xs-4 vc_column',
+            'value' => array(
+                'topLeft' => 'topLeft',
+                'topCenter' => 'topCenter',
+                'topRight' => 'topRight',
+                'centerLeft' => 'centerLeft',
+                'center' => 'center',
+                'centerRight' => 'centerRight',
+                'bottomLeft' => 'bottomLeft',
+                'bottomCenter' => 'bottomCenter',
+                'bottomRight' => 'bottomRight',
+            ),
+        ),array(
+            'type' => 'dropdown',
+            'heading' => esc_html__( 'Bar Direction', 'js_composer' ),
+            'param_name' => 'bardirection',
+            'edit_field_class' => 'vc_col-xs-4 vc_column',
+            'value' => array(
+                'leftToRight' => 'leftToRight',
+                'rightToLeft' => 'rightToLeft',
+                'topToBottom' => 'topToBottom',
+                'bottomToTop' => 'bottomToTop',
+            ),
+        ),array(
+            'type' => 'dropdown',
+            'heading' => esc_html__( 'Bar Position', 'js_composer' ),
+            'param_name' => 'barposition',
+            'edit_field_class' => 'vc_col-xs-4 vc_column',
+            'value' => array(
+                'left' => 'left',
+                'right' => 'right',
+                'top' => 'top',
+                'bottom' => 'bottom',
+            ),
+        ),array(
+            'type' => 'checkbox',
+            'heading' => esc_html__( 'Pagination', 'js_composer' ),
+            'param_name' => 'pagination',
+            'value' => array( esc_html__( 'Yes', 'js_composer' ) => '1' ),
+            'edit_field_class' => 'vc_col-xs-3 vc_column',
+        ),array(
+            'type' => 'checkbox',
+            'heading' => esc_html__( 'Thumbnails', 'js_composer' ),
+            'param_name' => 'thumbnails',
+            'value' => array( esc_html__( 'Yes', 'js_composer' ) => '1' ),
+            'edit_field_class' => 'vc_col-xs-3 vc_column',
+        ),array(
+            'type' => 'checkbox',
+            'heading' => esc_html__( 'Navigation', 'js_composer' ),
+            'param_name' => 'navigation',
+            'value' => array( esc_html__( 'Yes', 'js_composer' ) => '1' ),
+            'edit_field_class' => 'vc_col-xs-3 vc_column',
+        ),array(
+            'type' => 'checkbox',
+            'heading' => esc_html__( 'playPause', 'js_composer' ),
+            'param_name' => 'playPause',
+            'value' => array( esc_html__( 'Yes', 'js_composer' ) => '1' ),
+            'edit_field_class' => 'vc_col-xs-3 vc_column',
+        ),array(
+            "type" => "textfield",
+            "heading" => esc_html__("Extra class name", "js_composer"),
+            "param_name" => "el_class",
+            "description" => esc_html__("If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file.", "js_composer")
+        )
+    ),
+    "js_view" => 'VcColumnView'
+);

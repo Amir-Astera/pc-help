@@ -1,0 +1,187 @@
+<?php
+return array(
+    "name" => esc_html__("Counter", 'js_composer'),
+    "base" => "it_counter",
+    'category' => esc_html__( 'Custom Shortcodes', 'js_composer' ),
+    'description' => esc_html__( 'animated numbers changes in counter style with icons', 'js_composer' ),
+    'icon' => 'no-bg fa fa-paper-plane-o',
+    "params" => array(
+         array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Item Title",'superfine'),
+            "param_name" => "item_title",  
+            "value" => '',
+            "description" => esc_html__("type the item title.",'superfine') ,
+            'group' => 'Title'
+         ),
+         array(
+            "type" => "colorpicker",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Title Color",'superfine'),
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "param_name" => "title_color",
+            "description" => esc_html__("select title color.",'superfine'),
+            'group' => 'Title'
+         ),
+         array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Title Size",'superfine'),
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "param_name" => "title_size",
+            "description" => esc_html__("type title size in px.",'superfine'),
+            'group' => 'Title'
+         ),
+         array(
+            'type' => 'textarea',
+            'heading' => esc_html__( 'Description', 'js_composer' ),
+            'param_name' => 'text',
+            'admin_label' => true,
+            'group' => 'Title'
+        ),
+        array(
+            "type" => "colorpicker",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Description Color",'superfine'),
+            "param_name" => "desc_color",
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "description" => esc_html__("select the description color.",'superfine'),
+            'group' => 'Title'
+         ),
+         array(
+            'type' => 'checkbox',
+            'heading' => esc_html__( 'Use Icon', 'js_composer' ),
+            'param_name' => 'use_icon',
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "group" => "Title",
+            'value' => array(
+                esc_html__( 'yes', 'js_composer' ) => '1',
+            ),
+            'std'  => '1'
+        ),
+         array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("From",'superfine'),
+            "param_name" => "init_value",
+            'edit_field_class'    => 'vc_col-xs-4 vc_column',
+            "value" => '0',
+            'group' => 'Counter Values'
+         ),
+         array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("To",'superfine'),
+            'edit_field_class'    => 'vc_col-xs-4 vc_column',
+            "value" => '1000',
+            "param_name" => "item_value",
+            'group' => 'Counter Values'
+         ),
+         array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Start After",'superfine'),
+            'edit_field_class'    => 'vc_col-xs-4 vc_column',
+            "param_name" => "item_timer",
+            "value" => '100',
+            "description" => esc_html__("time in ms Ex:(1000).",'superfine'),
+            'group' => 'Counter Values'
+         ),
+         array(
+            "type" => "colorpicker",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Numbers Color",'superfine'),
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "param_name" => "numbers_color",
+            "description" => esc_html__("select Number color.",'superfine'),
+            'group' => 'Counter Values'
+         ),
+         array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Numbers Size",'superfine'),
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "param_name" => "numbers_size",
+            "description" => esc_html__("type numbers size in px.",'superfine'),
+            'group' => 'Counter Values'
+         ), 
+         icons_lib(),
+         icons_fa(),
+         icons_oc(),
+         icons_ti(),
+         icons_entypo(),
+         icons_line(),
+         icons_px(),
+         array(
+            "type" => "colorpicker",
+            "holder" => "div",
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "class" => "",
+            "heading" => esc_html__("Icon Color",'superfine'),
+            "param_name" => "icon_color",
+            "description" => esc_html__("select icon color.",'superfine'),
+            'group' => 'Icon',
+            'dependency' => array( 'element' => 'use_icon', 'not_empty' => true),
+         ),
+         array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Icon Size",'superfine'),
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "param_name" => "icon_size",
+            "description" => esc_html__("type icon size in px.",'superfine'),
+            'group' => 'Icon',
+            'dependency' => array( 'element' => 'use_icon', 'not_empty' => true),
+         ),
+        array(
+            "type" => "dropdown",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Box Shape",'superfine'),
+            "param_name" => "counter_shape",
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "value" => array(
+                "Default Theme Shape" => "shape",
+                "New Angle" => "new-angle",
+                "Round" => "round",
+                "Square" => "square",
+                "Rounded" => "border5px",
+                "Left Angle" => "left-angle",
+                "Right Angle" => "right-angle",
+                "Top Angle" => "top-angle",
+                "Bottom Angle" => "bottom-angle",
+            ),
+            "description" => esc_html__("Select Box shape.",'superfine'),
+         ),
+        array(
+            "type" => "colorpicker",
+            "holder" => "div",
+            "class" => "",
+            "heading" => esc_html__("Box Background Color",'superfine'),
+            'edit_field_class'    => 'vc_col-xs-6 vc_column',
+            "param_name" => "bx_bg_color",
+            "description" => esc_html__("select the box background color.",'superfine'),
+         ),
+         it_animation(),
+         it_animation_delay(),
+         it_animation_duration(),
+         array(
+            "type" => "textfield",
+            "heading" => esc_html__("Extra class name", "js_composer"),
+            "param_name" => "el_class",
+            "description" => esc_html__("If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file.", "js_composer"),
+        )
+    )
+);
+    

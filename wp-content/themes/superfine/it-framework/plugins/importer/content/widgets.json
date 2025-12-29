@@ -1,0 +1,23 @@
+[
+{
+"sidebar-2":["search-3","it_widget_recent_posts-1","categories-4","recent-comments-4","tag_cloud-1","it_widget_tweets-2","it_widget_flickr-3"],
+"sidebar-shop":["it_widget_side_banners-2"],
+"footer-widgets":["nav_menu-1","it_widget_flickr-2","tag_cloud-2","it_widget_contact-1"],
+"bottom-md-footer-widgets":["it_widget_footer_socials-3","mc4wp_form_widget-4"],
+"bottom-right-footer-widgets":["nav_menu-2"]
+},{
+
+"search":{"3":{"title":"Blog Search"},"_multiwidget":1},
+"it_widget_recent_posts":{"1":{"title":"","number":3,"show_date":true},"_multiwidget":1},
+"categories":{"4":{"title":"","count":1,"hierarchical":0,"dropdown":0},"_multiwidget":1},
+"recent-comments":{"4":{"title":"","number":3},"_multiwidget":1},
+"tag_cloud":{"1":{"title":"Tag Cloud","taxonomy":"post_tag"},"2":{"title":"Tag Cloud","taxonomy":"post_tag"},"_multiwidget":1},
+"it_widget_tweets":{"2":{"title":"Latest Tweets"},"_multiwidget":1},
+"it_widget_flickr":{"3":{"title":"Flickr Feed","widget_txt":"","flicker_id":"45409431@N00","limit":"16"},"2":{"title":"Flickr Photos","widget_txt":"You can checkout some of our amazing photos on flickr.","flicker_id":"45409431@N00","limit":"8"},"_multiwidget":1},
+"it_widget_side_banners":{"2":{"title":"Don't Miss the Event","image":"http:\/\/wp.it-rays.net\/superfine\/wp-content\/uploads\/2015\/12\/side-ad.jpg","im_link":"###"},"_multiwidget":1},
+"nav_menu":{"1":{"title":"Main Menu","nav_menu":68},"2":{"nav_menu":69},"_multiwidget":1},
+"it_widget_contact":{"1":{"title":"Contact Us"},"_multiwidget":1},
+"it_widget_footer_socials":{"3":{"title":"Social Icons","footer_text":"Follow Us On:"},"_multiwidget":1},
+"mc4wp_form_widget":{"4":{"title":"Subscribe to our NewsLetters:"},"_multiwidget":1}
+}
+]

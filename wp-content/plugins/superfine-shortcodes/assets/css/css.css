@@ -1,0 +1,167 @@
+.no-bg{
+	background-image: none !important;
+	background-color: #00cdf2;
+	border-radius: 5px;
+	font-size: 18px !important;
+	color: #fff;
+	width: 31px !important;
+	height: 31px !important;
+	top: 15px !important;
+	line-height: 33px !important;
+	text-align: center;
+}
+.no-bg.fa-comment-o{
+	line-height:30px !important;
+	font-size: 15px !important
+}
+.mce-toolbar {
+	display: block !important;
+}
+.vc_shortcode-param{
+	border-bottom: 1px #EAEAEA solid;
+	padding-bottom: 10px;
+}
+.vc_description{
+	font-size:11px
+}
+.vc_properties-list input[type=checkbox],.vc_checkbox-label{
+	margin-left:0 !important;
+	padding-left:0 !important
+}
+.vc_edit_form_elements .vc_column {
+	padding-top:15px
+}
+.vc_edit_form_elements .vc_column+.vc_column, .vc_edit_form_elements .vc_column-with-padding{
+	padding-top:0px
+}
+.no-padding{
+	padding-top:0 !important
+}
+.custom-checkbox{
+    position: relative;
+	display: block;
+	height: inherit;
+	margin-top:-2px;
+    font-size: 11px;
+	text-transform: uppercase;
+	background: #eceeef;
+	-webkit-transition: 0.15s ease-out;
+	-moz-transition: 0.15s ease-out;
+	-o-transition: 0.15s ease-out;
+	transition: 0.15s ease-out;
+	-webkit-transition-property: opacity background;
+	-moz-transition-property: opacity background;
+	-o-transition-property: opacity background;
+	transition-property: opacity background;
+    width: 65px;
+    height: 26px;
+	float:left;
+	background-color: #f3f3f3;
+	cursor: pointer;
+    -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.4);
+}
+.custom-checkbox:before, .custom-checkbox:after {
+	position: absolute;
+	top: 50%;
+	margin-top: -.5em;
+	line-height: 1;
+	-webkit-transition: inherit;
+	-moz-transition: inherit;
+	-o-transition: inherit;
+	transition: inherit;
+}
+.custom-checkbox.selected:after {
+	content: "on";
+	left: 14px;
+	color: white;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
+.custom-checkbox.selected:before {
+	display:none
+}
+.custom-checkbox .switcher{
+	position: absolute;
+	top: 4px;
+	left: 5px;
+	width: 18px;
+	height: 18px;
+	background: white;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	background-image: -webkit-linear-gradient(top, white 40%, #f0f0f0);
+	background-image: -moz-linear-gradient(top, white 40%, #f0f0f0);
+	background-image: -o-linear-gradient(top, white 40%, #f0f0f0);
+	background-image: linear-gradient(to bottom, #ffffff 40%, #f0f0f0);
+	-webkit-transition: left 0.15s ease-out;
+	-moz-transition: left 0.15s ease-out;
+	-o-transition: left 0.15s ease-out;
+	transition: left 0.15s ease-out;
+}
+.custom-checkbox.selected .switcher{
+	left: 43px;
+	box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.custom-checkbox:before {
+	content: "off";
+	right: 14px;
+	color: #aaa;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.custom-checkbox.selected{
+    background: #26B99A;
+}
+.custom-checkbox .on,.custom-checkbox .off{
+    margin: 0 !important;
+    position: absolute;
+    z-index: 2;            
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    _noFocusLine: expression(this.hideFocus=true); 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -khtml-opacity: 0;
+    -moz-opacity: 0;
+    width: 32px !important;
+	height: 31px !important;
+	background-color:transparent !important
+}
+.custom-checkbox .on{
+	right:0
+}
+.custom-checkbox .checkbox{
+	margin: 0 !important;
+    position: absolute;
+    z-index: 2;            
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    _noFocusLine: expression(this.hideFocus=true); 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -khtml-opacity: 0;
+    -moz-opacity: 0;
+    width: 63px !important;
+	height: 31px !important;
+	background-color:transparent !important
+}
+.vc_checkbox-label{
+	padding-left: 8px
+}
+li[data-element*="it_"]{
+	background: #ECECEC !important;
+}
+li[data-element*="it_"]:after {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background: #00cdf2;
+    color: #fff;
+    font-size: 8px;
+    display: inline-block;
+    content: "SUPERFINE";
+    font-weight: bold;
+    padding: 3px;
+    line-height: 1;
+}
